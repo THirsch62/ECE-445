@@ -10,7 +10,7 @@ Project Proposal was submitted by Nolan on Canvas.
 ## February 7th 2024 (First TA meeting)
 We met with our TA (Angquan Yu) at 4pm. Recieved feedback on current status of our project Proposal.  
 Feedback summary:  
-* Needs to be more specific
+* Needs to be more detailed
 * Clarified that PCB will be part of servo subsystem in our physical system  
 
 ![Screenshot](Block_Diagram.jpg)
