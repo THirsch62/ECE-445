@@ -13,4 +13,4 @@ Feedback summary:
 * Needs to be more detailed
 * Clarified that PCB will be part of servo subsystem in our physical system  
 
-![Screenshot](Block_Diagram.jpg)
+![Screenshot](readme_images/Block_Diagram.jpg)
