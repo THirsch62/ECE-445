@@ -6,6 +6,20 @@ TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 ## February 8th 2024 (Project Proposal Due Date)
 We collaborated over discord to make revisions in accordance to feedback provided by our Ta.  
 Project Proposal was submitted by Nolan on Canvas.
+<br><br>
+Started python code for image recognition:
+* Import dataset from MNIST
+* Isolate and extract part of data we need (training images and labels for: tshirts, pullovers, trousers)
+* Train CNN on extracted data (model predicts with 97.7% accuracy on test dataset)
+* Save trained model to sdcard
+* Load trained model into memory
+* Function to accept image and output predicted classification
+
+Miscellaneous code:
+* Created general layout for future functions
+* TODO: Function to normalize image from camera. Will consist of cropping image to just clothing item and resizing image to 28x28 pixels
+* TODO: Set up basic servo control function. Input parameter will be int corresponding to panel to fold. Function will execute folding for that panel
+* TODO: Figure out folding pattern/series of ints to pass to servo control function. Need 3 foloding patterns for all clothing types
 
 ## February 7th 2024 (First TA meeting)
 We met with our TA (Angquan Yu) at 4pm. Recieved feedback on current status of our project Proposal.  
