@@ -5,6 +5,11 @@ from keras.utils import to_categorical
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
+import picamera
+
+def take_picture(file_path):
+    with picamera.PiCamera() as camera:
+        camera.capture(file_path)
 
 # TODO
 def normalize_image(image_path):
