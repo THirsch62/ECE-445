@@ -3,6 +3,9 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## February 9th 2024 (Team Contract Due Date)
+We discussed guidelines, goals and expectations today. Following that discussion, we put together our team contract and submitted on Canvas.
+
 ## February 8th 2024 (Project Proposal Due Date)
 We collaborated over discord to make revisions in accordance to feedback provided by our Ta.  
 Project Proposal was submitted by Nolan on Canvas.
