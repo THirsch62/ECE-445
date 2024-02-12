@@ -3,6 +3,16 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## February 12th 2024
+We discussed parts required for initial testing:
+* Servos
+* RaspberryPi 4
+* Camera
+* Frame to mount servos to
+* Panel to attach to servos and test folding mechanism
+
+We put together a shopping list with amazon links to stuff we need to purchase for testing so we can discuss purchasing procedure with our TA tomorrow. We also need to discuss the procedure for getting CAD models 3-D printed as our frame and panels will most likely be 3d printed.
+
 ## February 9th 2024 (Team Contract Due Date)
 We discussed guidelines, goals and expectations today. Following that discussion, we put together our team contract and submitted on Canvas.
 
