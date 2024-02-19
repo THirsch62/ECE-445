@@ -3,6 +3,15 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## February 19th 2024
+We started a rough draft of our Design Document. We plan to work on it tonight and tomorrow. This way, we'll have a good outline before meeting with our TA so we can get any help if needed.
+
+## February 18th 2024
+Sent emails asking for discounts/sponsored free parts to:
+- DFRobots (Servos)
+- RaspberryPi (RaspberryPi4 and camera module)
+- Siebel Center for Design (3-D printing)
+
 ## February 12th 2024
 We discussed parts required for initial testing:
 * Servos
