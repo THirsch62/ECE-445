@@ -4,7 +4,10 @@ NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
 ## Februrary 21st, 2024
-We met today to revise our Design Document and started CAD modeling everything. We determined how much 3D printing would cost us and also placed an Amazon order through ECE Illinois for all parts we need to start our initial testing.
+We met today to revise our Design Document and started CAD modeling. We determined how much 3D printing would cost us and also placed an Amazon order through ECE Illinois for all parts we need to start our initial testing.<br><br>
+Here is the start of what our panels will look like:
+![Screenshot](readme_images/Panel.png)
+The dimensions are 10"x10"x1".
 
 ## February 20th, 2024
 We finished a rough draft of our Design Document and reviewed it with our TA. We determined that our graphics should be more detailed and our verification steps should be more objective.
