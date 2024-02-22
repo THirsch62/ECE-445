@@ -3,6 +3,9 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## Februrary 22nd, 2024 (Design Document Due Date)
+We finalized our <a href="https://github.com/THirsch62/ECE-445/blob/main/Design%20Document.pdf">Design Document</a>, referencing the <a href="https://courses.engr.illinois.edu/ece445/documents/grading_rubrics/DD_evalsheet.pdf">evaluation sheet</a> to make sure that we met all the requirements.
+
 ## Februrary 21st, 2024
 We met today to revise our Design Document and started CAD modeling. We determined how much 3D printing would cost us and also placed an Amazon order through ECE Illinois for all parts we need to start our initial testing.
 <br><br>
@@ -36,13 +39,13 @@ We discussed parts required for initial testing:
 We put together a shopping list with amazon links to stuff we need to purchase for testing so we can discuss purchasing procedure with our TA tomorrow. We also need to discuss the procedure for getting CAD models 3-D printed as our frame and panels will most likely be 3-D printed.
 
 ## February 9th 2024 (Team Contract Due Date)
-We discussed guidelines, goals and expectations today. Following that discussion, we put together our team contract and submitted on Canvas.
+We discussed guidelines, goals and expectations today. Following that discussion, we put together our <a href="https://github.com/THirsch62/ECE-445/blob/main/ECE445_Team_48_Contract.pdf">Team Contract</a> and submitted on Canvas.
 
 ## February 8th 2024 (Project Proposal Due Date)
 We collaborated over discord to make revisions in accordance to feedback provided by our Ta.  
-Project Proposal was submitted by Nolan on Canvas.
+<a href="https://github.com/THirsch62/ECE-445/blob/main/Project%20Proposal.pdf">Project Proposal</a> was submitted by Nolan on Canvas.
 <br><br>
-Started python code for image recognition:
+Started <a href="https://github.com/THirsch62/ECE-445/tree/main/python_code">python code</a> for image recognition:
 * Import dataset from MNIST
 * Isolate and extract part of data we need (training images and labels for: tshirts, pullovers, trousers)
 * Train CNN on extracted data (model predicts with 97.7% accuracy on test dataset)
