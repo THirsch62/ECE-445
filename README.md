@@ -3,6 +3,19 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## February 27th, 2024 (Design Review Date)
+We presented our Design Document to 3 TAs and Professor Viktor Gruev. Some feedback that was provided:
+* Find other voltage regulator. Linear one we are currently using allows more power dissipation.
+* Use children's clothes. Will scale size of model down and can save on materials.
+* Include more data about architecture and design of Image Recognition subsystem. Such as how many layers, what features we use to classify, etc., and why we chose all those.
+* Add what data is being transferred in the block diagram
+* Add temperature to Tolerance Analysis
+
+## February 26th, 2024
+We determined who was going to present each part of the design document tomorrow and had a few practice presentations.<br>
+
+We found out that 3-D printing everything would be very expensive. So we decided that we'll use 2x2's or something of the like from Home Depot for the frame. A veneer or polyester sheet for the panels. And then we would 3-D print the mounting mechanisms so that we ensure a proper fit for the servos.
+
 ## Februrary 22nd, 2024 (Design Document Due Date)
 We finalized our <a href="https://github.com/THirsch62/ECE-445/blob/main/Design%20Document.pdf">Design Document</a>, referencing the <a href="https://courses.engr.illinois.edu/ece445/documents/grading_rubrics/DD_evalsheet.pdf">evaluation sheet</a> to make sure that we met all the requirements.
 
