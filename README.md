@@ -24,8 +24,8 @@ We met at noon today to do a Home Depot run. We bought:
     * Mount dowel rod to servo
 
 ## March 19th, 2024
-After a series of emails were sent around, we were able to locate the rest of our Amazon order. We had a team meeting at 3pm to discuss project details and to pick up the rest of our order.<br>
-We met with Angquan for our weekly check-in at 4pm.<br>
+After a series of emails were sent around, we were able to locate the rest of our Amazon order. We had a team meeting at 3pm to discuss project details and to pick up the rest of our order.<br><br>
+We met with Angquan for our weekly check-in at 4pm.<br><br>
 After the meeting we experimented with our Servos to make sure we could control 2 of them simultaneously.
 
 ## March 6th, 2024
