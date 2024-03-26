@@ -3,6 +3,34 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## March 25th, 2024
+We met again today to start building our project. We cut out the first panels and realized we couldn't cut our dowel rods with a box cutter, so we ran back to Home Depot. We bought:
+* Pruners (easy way to cut dowels)
+* Another dowel (Mount camera)
+
+On the way back, we stopped at Goodwill and bought infant clothes to demo. We finished cutting all of the dowels and started cutting the risers as well.
+
+## March 21st, 2024
+We met at noon today to do a Home Depot run. We bought:
+* 2 Heavy duty cardboard boxes. 
+    * 1 will be used as a baseplate for the entire project
+    * The other will be cut up and used as panels for folding clothes and as risers for the servos
+* Box cutter
+    * Cut cardboard
+* Dowel rod
+    * Cut into pieces and used to mount servos to panels
+* Gorilla glue
+    * Mount risers to baseplate and servos to risers
+    * Mount dowel rod to servo
+
+## March 19th, 2024
+After a series of emails were sent around, we were able to locate the rest of our Amazon order. We had a team meeting at 3pm to discuss project details and to pick up the rest of our order.<br>
+We met with Angquan for our weekly check-in at 4pm.<br>
+After the meeting we experimented with our Servos to make sure we could control 2 of them simultaneously.
+
+## March 6th, 2024
+We went to the ECEB to pick up our amazon order that we placed through ECE Illinois. Part of our order was missing. Started emailing around to find where the rest of the order could be.
+
 ## February 27th, 2024 (Design Review Date)
 We presented our Design Document to 3 TAs and Professor Viktor Gruev. Some feedback that was provided:
 * Find other voltage regulator. Linear one we are currently using allows more power dissipation.
