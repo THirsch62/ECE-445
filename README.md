@@ -3,6 +3,11 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## April 2nd, 2024 (Fourth Round PCB Way Deadline at 4:45pm)
+We met today and finished our PCB design. We sent it over to our TA for audit and it failed. We are going to send our own order in tomorrow morning. Here is a picture of our design.
+
+![Screenshot](readme_images/PCB_Design_V1.jpg)
+
 ## April 1st, 2024
 We met today at 2pm to finish glueing everything. We finished:
 * Glueing servo arms to panels
@@ -23,7 +28,7 @@ We tested this today with a transistor from a previous ECE class lab kit, but th
 We stopped working around 8:30PM.
 
 We are waiting on the following parts to come in:
-* Spool of 22 AUG wire
+* Spool of 22 AWG wire
 * Wire stripper
 * Female to male wires
 * Raspberry Pi Camera cable extension
