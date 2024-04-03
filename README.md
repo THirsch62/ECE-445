@@ -51,7 +51,9 @@ We met again today to start building our project. We cut out the first panels an
 On the way back, we stopped at Goodwill and bought infant clothes to demo. We finished cutting all of the dowels and started cutting the risers as well.
 
 ## March 21st, 2024
-We met at noon today to do a Home Depot run. We bought:
+We met at noon today to revise project plans and get supplies. We decided that we would use cardboard for panels and for a base because it would be light and within our budget. We would reinforce the cardboard with dowel rods and use superglue/gorilla glue to hold everything together.
+
+We did a Home Depot run. We bought:
 * 2 Heavy duty cardboard boxes. 
     * 1 will be used as a baseplate for the entire project
     * The other will be cut up and used as panels for folding clothes and as risers for the servos
