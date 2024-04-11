@@ -28,7 +28,7 @@ def main(train_model = False, evaluate_model = False):
         # Pass picture into predict function
         prediction = image_classification_model.predict(image)
         # Pass output of predict function into servo-controller subsystem
-        servo_controller_subsystem.main(image)
+        servo_controller_subsystem.main(prediction)
 
 if __name__ == "__main__":
     main(train_model = False, evaluate_model = True)
