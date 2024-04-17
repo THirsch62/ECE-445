@@ -19,6 +19,16 @@ def normalize_image(image_path):
     # resize image into 28x28
     return image
 
+def rotate_image(image):
+    output = []
+    for i in range(len(image)):
+        temp = []
+        for j in range(len(image)):
+            temp.append(image[j][i])
+        output.append(temp)
+    return output
+
+
 class image_classification_model:
     working_set = (0, 1, 2)
         # Labels for fashion MNIST:
@@ -46,6 +56,11 @@ class image_classification_model:
         for ind, train_label in enumerate(train_labels):
             if train_label not in image_classification_model.working_set:
                 remove_items.insert(0, ind)
+            elif train_label == 1:
+                train_images[ind] = rotate_image(train_images[ind])
+                plt.plot(train_images[ind])
+                plt.show()
+                c = input()
         train_labels = np.delete(train_labels, remove_items, 0)
         train_images = np.delete(train_images, remove_items, 0)
 

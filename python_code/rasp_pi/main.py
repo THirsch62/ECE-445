@@ -5,7 +5,7 @@ from utils import *
 model_name = "trained_model"
 image_path = "image.jpg"
 
-def main(train_model = False, evaluate_model = False):
+def main(train_model = True, evaluate_model = False):
     # Mainly used for testing and initial stages
     if train_model or evaluate_model:
         image_classification_model.load_training_data_into_memory()
@@ -18,7 +18,7 @@ def main(train_model = False, evaluate_model = False):
     # Repeat forever
     while True:
         # Wait until button is pressed
-        while not button:
+        while not button():
             pass
 
         # Take picture
