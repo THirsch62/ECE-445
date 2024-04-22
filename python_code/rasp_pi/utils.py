@@ -59,8 +59,10 @@ def turn_diode_off():
 def button():
     return GPIO.input(BUTTON)
 
-def fold(panel):
-    panels[panel].ChangeDutyCycle(2 + ROTATION)
+def fold(panels_list):
+    for panel in panels_list:
+        panels[panel].ChangeDutyCycle(2 + ROTATION)
     time.sleep(2)
-    panels[panel].ChangeDutyCycle(2)
+    for panel in panels_list:
+        panels[panel].ChangeDutyCycle(2)
     time.sleep(1)
