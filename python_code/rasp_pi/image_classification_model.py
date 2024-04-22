@@ -2,9 +2,12 @@ from keras.datasets import fashion_mnist
 from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.utils import to_categorical
+
+from PIL import Image
+from imutils import rotate
+
 import numpy as np
 import matplotlib.pyplot as plt
-from PIL import Image
 import picamera
 
 def take_picture(file_path):
@@ -57,10 +60,7 @@ class image_classification_model:
             if train_label not in image_classification_model.working_set:
                 remove_items.insert(0, ind)
             elif train_label == 1:
-                train_images[ind] = rotate_image(train_images[ind])
-                plt.plot(train_images[ind])
-                plt.show()
-                c = input()
+                train_images[ind] = rotate(train_images[ind], angle=270)
         train_labels = np.delete(train_labels, remove_items, 0)
         train_images = np.delete(train_images, remove_items, 0)
 
