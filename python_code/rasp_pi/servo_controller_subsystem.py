@@ -11,4 +11,4 @@ folding_pattern = {
 # TODO
 def main(clothing_item):
     for panels in folding_pattern[clothing_item]:
-        fold_panel(panels)
+        fold(panels)
