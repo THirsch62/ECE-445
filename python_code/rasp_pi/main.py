@@ -14,6 +14,8 @@ def main(train_model = True, evaluate_model = False):
         else:
             model = image_classification_model.load_model(model_name)
         image_classification_model.evaluate_model()
+
+    setup_board()
     
     # Repeat forever
     while True:
