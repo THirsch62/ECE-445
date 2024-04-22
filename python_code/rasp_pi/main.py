@@ -16,6 +16,9 @@ def main(train_model = True, evaluate_model = False):
         image_classification_model.evaluate_model()
 
     setup_board()
+
+    image_classification_model.load_model(model_name)
+    image_classification_model.load_training_data_into_memory()
     
     # Repeat forever
     while True:
@@ -24,13 +27,14 @@ def main(train_model = True, evaluate_model = False):
             pass
 
         # Take picture
-        take_picture(image_path)
+        # take_picture(image_path)
         # Normalize picture
         image = normalize_image(image_path)
         # Pass picture into predict function
         prediction = image_classification_model.predict(image)
+        print(prediction)
         # Pass output of predict function into servo-controller subsystem
         servo_controller_subsystem.main(prediction)
 
 if __name__ == "__main__":
-    main(train_model = False, evaluate_model = True)
+    main(train_model = False, evaluate_model = False)

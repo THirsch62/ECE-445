@@ -3,33 +3,44 @@ from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.utils import to_categorical
 
-from PIL import Image
+from PIL import Image, ImageOps
 from imutils import rotate
 
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+
 import picamera
 
 def take_picture(file_path):
     with picamera.PiCamera() as camera:
         camera.capture(file_path)
 
+
 # TODO
 def normalize_image(image_path):
+    # open image
     image = Image.open(image_path)
     image = np.array(image)
-    # isolate clothing item
-    # resize image into 28x28
-    return image
 
-def rotate_image(image):
-    output = []
-    for i in range(len(image)):
-        temp = []
-        for j in range(len(image)):
-            temp.append(image[j][i])
-        output.append(temp)
-    return output
+    # rotate image to right side up
+    image = rotate(image, angle=180)
+
+    # convert back to image
+    image = Image.fromarray(image)
+
+    # add black space above and below
+    new_image = Image.new(image.mode, size=(image.size[0], image.size[0]))
+    new_image.paste(image, (0, int((new_image.size[1] - image.size[1]) / 2)))
+
+    # resize image to proper dimensions
+    image = new_image.resize((28, 28))
+
+    image = ImageOps.grayscale(image)
+
+    image.save('output.jpg')
+
+    return image
 
 
 class image_classification_model:
@@ -55,6 +66,7 @@ class image_classification_model:
         (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
         # remove uneccessary training data
+        train_images = np.array(train_images)
         remove_items = []
         for ind, train_label in enumerate(train_labels):
             if train_label not in image_classification_model.working_set:
@@ -115,6 +127,7 @@ class image_classification_model:
         # Load the model
         model = load_model(model_name)
         image_classification_model.model = model
+        print(image_classification_model.model)
         return model
     
     def predict(image):
@@ -123,6 +136,9 @@ class image_classification_model:
             1: "Trouser",
             2: "Pullover"
         }
-        prediction = convert[image_classification_model.model.predict(image)]
+
+        image = np.array(image)
+        image = image.reshape(-1, 28, 28, 1)
+        prediction = convert[np.argmax(image_classification_model.model.predict(image)[0])]
         return prediction
 

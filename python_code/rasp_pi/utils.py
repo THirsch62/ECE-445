@@ -60,6 +60,7 @@ def button():
     return GPIO.input(BUTTON)
 
 def fold(panels_list):
+    print("folding: ", panels_list)
     for panel in panels_list:
         panels[panel].ChangeDutyCycle(2 + ROTATION)
     time.sleep(2)
