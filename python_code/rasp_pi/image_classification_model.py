@@ -4,30 +4,25 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.utils import to_categorical
 
 from PIL import Image, ImageOps
-from imutils import rotate
 
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
+'''
 import picamera
 
 def take_picture(file_path):
     with picamera.PiCamera() as camera:
         camera.capture(file_path)
-
+'''
 
 # TODO
 def normalize_image(image_path):
     # open image
     image = Image.open(image_path)
-    image = np.array(image)
 
     # rotate image to right side up
-    image = rotate(image, angle=180)
-
-    # convert back to image
-    image = Image.fromarray(image)
+    image = image.rotate(image, 180)
 
     # add black space above and below
     new_image = Image.new(image.mode, size=(image.size[0], image.size[0]))
@@ -72,7 +67,8 @@ class image_classification_model:
             if train_label not in image_classification_model.working_set:
                 remove_items.insert(0, ind)
             elif train_label == 1:
-                train_images[ind] = rotate(train_images[ind], angle=270)
+                image = Image.fromarray(train_images[ind])
+                train_images[ind] = np.array(image.rotate(270))
         train_labels = np.delete(train_labels, remove_items, 0)
         train_images = np.delete(train_images, remove_items, 0)
 
