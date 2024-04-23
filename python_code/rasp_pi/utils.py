@@ -16,6 +16,7 @@ ROTATION = 7    # x18 degrees
 panels = {}
 
 def setup_board():
+    return
     GPIO.setmode(GPIO.BCM)
 
     # Inputs
@@ -50,17 +51,21 @@ def setup_board():
     GPIO.output(DIODE, 0)
 
 def turn_diode_on():
+    return
     GPIO.output(DIODE, 1)
 
 def turn_diode_off():
+    return
     GPIO.output(DIODE, 0)
 
 
 def button():
+    return True
     return GPIO.input(BUTTON)
 
 def fold(panels_list):
     print("folding: ", panels_list)
+    return
     for panel in panels_list:
         panels[panel].ChangeDutyCycle(2 + ROTATION)
     time.sleep(2)
