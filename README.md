@@ -3,6 +3,12 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## April 25th, 2024
+We met at 12:30 to review everything we compiled for our presentation. We also put together our team contract fulfillment.
+
+## April 24th, 2024
+We met briefly on discord to go over rough layout of our presentation.
+
 ## April 23rd, 2024 (Final Demo)
 We demoed our project to Professor Gruev and 2 TAs. They were rather unimpressed to say the least. We didn't read the PCB requirements, so we didn't put a microcontroller on the board, so we lost points for that. We tried to explain what happened with our Raspberry Pi and the image recognition but it didn't look like they were buying it. To be fair, it does sound far-fetched. We were basically told that this stuff happens all the time and that we need to try harder.
 
