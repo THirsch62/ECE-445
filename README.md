@@ -3,6 +3,39 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## April 23rd, 2024 (Final Demo)
+We demoed our project to Professor Gruev and 2 TAs. They were rather unimpressed to say the least. We didn't read the PCB requirements, so we didn't put a microcontroller on the board, so we lost points for that. We tried to explain what happened with our Raspberry Pi and the image recognition but it didn't look like they were buying it. To be fair, it does sound far-fetched. We were basically told that this stuff happens all the time and that we need to try harder.
+
+## April 22nd, 2024
+Our Raspberry Pi came in. We retested the control of all the servos to make sure that functionality worked. We started getting a lot of errors surrounding keras and tensorflow. We spent about 4 hours trying different methods to install keras and tensorflow and it wouldn't load on this Raspberry Pi.
+
+## April 20th, 2024
+At some point during the past night, 2 panels came off our project and the power port for our Raspberry Pi came off. We cut new panels and reglued them. We also ordered a new Raspberry Pi.
+
+## April 18th, 2024 (Mock Demo)
+We demoed our project to Angquan. He was very impressed with our project and to see that it was working.
+
+## April 17th, 2024
+We met at noon today to test everything folding. The board was able to fold as expected. Our image recognition was not accurate, so we painted the board black to try to achieve better results if we increased our contrast. After painting our system was correctly able to distinguish between pants and shirts.
+
+## April 16th, 2024
+Nolan glued the servos to the board at noon so they would be dry and ready for testing by tomorrow. Tyler tested all the ports on the Raspbery Pi and the PCB and made sure they were able to interact with the button, LEDs and servos.
+
+## April 15th, 2024
+Tyler and Nolan met around 3:30 to solder everything to the PCB.
+
+## April 11th, 2024
+We met at noon today. We almost finished rebuilding the project with 6 servos for control instead of 12. We also finished designing our PCB and submitted an order through JLCPCB to get our PCB in sooner.
+
+## April 10th, 2024
+We met at 2pm today. We started rebuilding our project. We had to recut panels that were suited for 1 servo.
+
+## April 9th, 2024
+We met at 2pm today. Last time we met, we were not able to emit enough voltage to power the servos. We were limited by the voltage supplied by the IC chip. After meeting today, we were still unable to resolve this issue and decided it would be easiest to switch our design to only utilize one servo.
+
+## April 3rd, 2024
+We met at 1pm today. The goal was to finalize how we could utilize transistors to control power to our servos.
+
 ## April 2nd, 2024 (Fourth Round PCB Way Deadline at 4:45pm)
 We met today and finished our PCB design. We sent it over to our TA for audit and it failed. We are going to send our own order in tomorrow morning. Here is a picture of our design.
 
