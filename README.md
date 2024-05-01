@@ -3,6 +3,21 @@ Group: Tyler Hirsch, Bryson Maedge, Nolan Opalski
 NetId: &nbsp;thirsch3, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bmaedge2, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nolanfo2   
 TA: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angquan Yu
 
+## May 1st, 2024
+Finished our final paper today and am adding the last update to the notebook. Has been a very informative class and we all learned a lot. Thank you!
+
+## April 30th, 2024
+We each individually worked on the final paper throughout the day. Made some really solid progress only need to do the R&V Portion of the paper now.
+
+## April 29th, 2024 (Presentation)
+Today we had our presentation. We believe it went really well. It was at 8am which was a little bit of an early wakeup for us but our minds were sharp. 
+
+## April 28th, 2024
+We took the feedback from our mock presentation and edited our slides. We also ran through the presentation once and got fluid with our speaking. We are ready for this.
+
+## April 26th, 2024 (Mock Presentation)
+We met at 10AM to perform our mock presentation. We got a lot of valuable feedback that we are going to apply to our slides. Presentation went far better than the demo.
+
 ## April 25th, 2024
 We met at 12:30 to review everything we compiled for our presentation. We also put together our team contract fulfillment.
 
